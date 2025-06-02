@@ -254,3 +254,5 @@ CREATE TABLE "DAMGEUN"."SALE_REVIEW"
 ```
 
 ![[Pasted image 20250524182435.png]]
+
+
