@@ -20,14 +20,14 @@
 | CHAT_TYPE  | VARCHAR2(20)      | 일반/이미지 채팅 구분 |
 
 ### 2. `MESSAGE` (메시지)
-| 컬럼명      | 타입              | 설명                  |
-|------------|-------------------|-----------------------|
-| NO         | NUMBER(11)        | 메시지 번호 (PK)      |
-| ROOM_NO    | NUMBER(11)        | 채팅방 번호 (FK)      |
-| MESSAGE    | CLOB              | 텍스트 메시지 내용     |
-| IMAGE_URL  | VARCHAR2(255)     | 이미지 URL (선택)     |
-| USER_ID    | VARCHAR2(255)     | 보낸 사람 ID          |
-| SEND_TIME  | DATE              | 보낸 시간             |
+| 컬럼명       | 타입            | 설명           |
+| --------- | ------------- | ------------ |
+| NO        | NUMBER(11)    | 메시지 번호 (PK)  |
+| ROOM_NO   | NUMBER(11)    | 채팅방 번호 (FK)  |
+| MESSAGE   | CLOB          | 텍스트 메시지 내용   |
+| IMAGE_URL | VARCHAR2(255) | 이미지 URL (선택) |
+| USER_ID   | VARCHAR2(255) | 보낸 사람 ID     |
+| SEND_TIME | DATE          | 보낸 시간        |
 
 ---
 
